@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Aura",
-  description: "An Intelligent, Emotional Bot",
+  description: "Bringing Intelligence and Emotion to Life",
 };
 
 export default function RootLayout({
