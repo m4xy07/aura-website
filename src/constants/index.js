@@ -44,28 +44,24 @@ import {
 export const navigation = [
   {
     id: "0",
+    title: "Hero",
+    url: "#hero",
+  },
+  {
+    id: "0",
     title: "Features",
     url: "#features",
   },
   {
     id:"1",
-    title: "Connectivity",
+    title: "Integration",
     url: "#connectivity",
   },
-  {
-    id: "2",
-    title: "Features 2",
-    url: "#features2",
-  },
   
   
   
-  {
-    id: "3",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

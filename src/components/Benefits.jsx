@@ -5,6 +5,9 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import DynamicCardsVariant2 from "./ui/LiveCards";
+import { MeteorsDemo } from "./ui/meteorcard1";
+import { MeteorsDemo2 } from "./ui/meteorcard2";
+import { MeteorsDemo3 } from "./ui/meteorcard3";
 
 const Benefits = () => {
   return (
@@ -20,8 +23,11 @@ const Benefits = () => {
         />
 
         <div className="flex flex-wrap justify-center gap-10 mb-10">
-          <DynamicCardsVariant2/>
-         
+          
+          <MeteorsDemo/>
+          <MeteorsDemo2/>
+          <MeteorsDemo3/>
+          
         </div>
       </div>
     </Section>
