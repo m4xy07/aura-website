@@ -10,7 +10,7 @@ export function MeteorsDemo2() {
         <div className="absolute inset-0 h-full w-full  rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-n-15 border border-gray-800  px-4 pt-4 pb-24 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
             
-          <div className="h-10 w-10 rounded-full flex mb-6">
+          <div className="h-10 w-10 rounded-full flex mb-6 z-50">
           <img src={benefitIcon2}/>
           </div>
 
