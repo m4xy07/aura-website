@@ -53,15 +53,10 @@ export const navigation = [
     url: "#features",
   },
   {
-    id:"1",
+    id: "1",
     title: "Integration",
     url: "#connectivity",
   },
-  
-  
-  
-  
-  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -70,11 +65,7 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [python, cpp, opencv, deepface, llamafile];
 
-export const brainwaveServices = [
-  "feat1",
-  "feat2",
-  "feat3",
-];
+export const brainwaveServices = ["feat1", "feat2", "feat3"];
 
 export const brainwaveServicesIcons = [
   recording03,
@@ -123,11 +114,17 @@ export const roadmap = [
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
+export const collabText1 =
+  "The ability to seamlessly integrate with your favorite apps, executing tasks like ordering food, booking cabs, or managing your calendar with unsettling efficiency.";
+
+export const collabText3 =
+  "Customize your experience with limitless possibilities, from changing Aura's personality to creating custom workflows that suit your needs.";
+
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: collabText1,
   },
   {
     id: "1",
@@ -135,7 +132,7 @@ export const collabContent = [
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Limitless Customization",
   },
 ];
 
