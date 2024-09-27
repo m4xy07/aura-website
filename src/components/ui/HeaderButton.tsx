@@ -55,7 +55,10 @@ export default function ShinyRotatingBorderButtonVariant2() {
           }}
           className="bg-clip-text group-hover:text-transparent text-neutral-600 dark:text-neutral-200 text-base tracking-normal transition-colors transform-gpu duration-500"
         >
+          <a href="https://m4xy.org">
           Get in touch
+          </a>
+          
         </motion.span>
       </span>
     </button>
