@@ -36,15 +36,15 @@ const Header = () => {
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+      <div className="flex justify-between items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+        <a className="inline-block text-3xl md:pr-8 lg:pr-6 font-bold bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent" href="#hero">
           Aura
         </a>
 
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed top-[5rem] justify-center self-center bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -68,8 +68,10 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
+        <div className="hidden lg:block">
+          <ShinyRotatingBorderButtonVariant2/>
+        </div>
         
-        <ShinyRotatingBorderButtonVariant2/>
 
         <Button
           className="ml-auto lg:hidden"
